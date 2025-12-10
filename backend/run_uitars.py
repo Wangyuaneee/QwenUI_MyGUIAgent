@@ -25,7 +25,7 @@ model_name = 'doubao-1-5-ui-tars-250428'
 API_url_uitars = "https://ark.cn-beijing.volces.com/api/v3/chat/completions"
 
 # Your model API Token
-token_uitars = "f152dab5-4af2-4686-b617-980718d7f782"
+token_uitars = "ENTER-YOUR-API-HERE"
 
 #设置UITARS可以查看最近的多少步的信息
 history_n = 5

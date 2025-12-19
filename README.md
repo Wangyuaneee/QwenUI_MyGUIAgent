@@ -15,7 +15,7 @@ https://github.com/user-attachments/assets/3380a514-8e6a-48c7-ab00-2e68af41d055
 
 ## ✨ 12.20更新：使用服务器vllm部署qwen3vl替代uitars
 ### 1.远程服务器连接手机ADB
-在连接主机开始ADB调试后，打开无线调试选项（会显示ip:port），之后ssh输入adb connect [ip]:[port]，同时在手机上确认配对，即可远程调试ADB
+在连接主机开始ADB调试后，打开无线调试选项（会显示ip:port），主机adb输入adb tcpip 5555, 之后ssh输入adb connect [ip]:5555，同时在手机上确认配对，即可远程调试ADB
 ### 2.vllm部署qwen3vl
 ```bash
 conda create -n vllm python = 3.10

@@ -34,6 +34,8 @@ vllm serve Qwen/Qwen3-VL-8B-Instruct/ --trust-remote-code --tensor-parallel-size
 在使用原始模型是，发现器在处理GUI情况时有几个问题：游戏能力表现弱（消消乐用点而不是滑）无法识别程序中间状态（抖音后台若处于聊天界面，模型打开抖音会说这是聊天程序，之后退出）
 针对这几个问题，构建STF数据集（其实做强化学习更好）进行LoRA微调
 模型效果有明显提升
+<img width="640" height="480" alt="M`)7}M CPQ23KFD}9P)@8~M" src="https://github.com/user-attachments/assets/5ccdede1-4f85-4ffa-bf65-426f1557368b" />
+
 
 
 ## 📂 项目结构

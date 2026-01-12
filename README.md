@@ -1,6 +1,6 @@
-# UITARS Mobile Agent - 移动端智能体操作平台
+# My Mobile Agent - 移动端智能体操作平台
 
-本项目实现了一个基于 **UITARS** 大模型和 **GUI Agent** 技术的移动端智能体，能够通过 ADB 指令智能操控 Android 手机。项目集成了 FastAPI 后端服务与 React 可视化前端，支持实时屏幕投射、自然语言指令交互及操作过程的可视化监控。
+本项目实现了一个基于微调后的 **Qwen3VL** 大模型和 **GUI Agent** 技术的移动端智能体，能够通过 ADB 指令智能操控 Android 手机。项目集成了 FastAPI 后端服务与 React 可视化前端，支持实时屏幕投射、自然语言指令交互及操作过程的可视化监控。
 
 ## ✨ 主要功能
 
